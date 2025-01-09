@@ -1,0 +1,39 @@
+.albums-module{
+  .border-box{
+    border: solid black 2px;
+    margin:15px;
+    -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+  .search-box{
+    margin-bottom: 45px;
+
+    button{
+      margin-bottom: 25px;
+      width: 100%;
+    }
+  }
+  .search-result{
+    .img-box{
+      height: 200px;
+      width: 100%;
+      overflow: hidden;
+      img{
+        height: 100%;
+        width: 100%;
+        padding: 10px 0 10px 0;
+        opacity: 1;
+        
+      }
+    }
+    button{
+      margin:25px
+    }
+    p{
+      text-align: justify;
+    }
+  }
+
+}

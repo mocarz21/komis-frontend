@@ -1,0 +1,19 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-image: url('../src/images/tlo.jpg');
+  background-size: cover; /* Dopasowuje obraz proporcjonalnie */
+  background-position: center; /* Wycentruje tło */
+  background-repeat: no-repeat; /* Zapobiega powtarzaniu obrazu */
+  width: 100vw; /* Ustaw pełną szerokość */
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
